@@ -1,3 +1,13 @@
 console.log('Starting app');
-setTimeOut(()=>{console.log('Time over';), 4000});
-console.log('Finishing up')
+setTimeout(() => {
+  console.log('Time over');
+}, 4000);
+
+setTimeout(() => {
+  console.log('Time over again');
+}, 3000);
+
+setTimeout(() => {
+  console.log('Third timeout works');
+}, 0);
+console.log('Finishing up');
