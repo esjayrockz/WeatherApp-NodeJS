@@ -10,4 +10,10 @@ setTimeout(() => {
 setTimeout(() => {
   console.log('Third timeout works');
 }, 0);
+let i = 0;
+while(i<4000000000)
+{
+  i++;
+}
+console.log(i);
 console.log('Finishing up');
