@@ -4,6 +4,7 @@ This is a Command line app which takes an address as an argument from the user a
 More details -- The address passed by the user is requested to Google's geocode APIs which responds with corresponding address
 information, more importantly the latitude and longitude of the location. This information is then requested to
 Forecast.io's Dark Sky API which then responds with corresponding weather information which is displayed to the user.
+
 Options:
   --version      Show version number                                   [boolean]
   -a, --address  Address to fetch weather for                [string] [required]
